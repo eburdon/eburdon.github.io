@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://example.com/</link>
-    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Sep 2016 21:51:28 -0700</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2016 21:51:28 -0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <title>Erika&#39;s Blog</title>
+    <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
+    <link>http://eburdon.github.io/</link>
+    <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 08 Oct 2016 14:01:32 -0700</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2016 14:01:32 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Hello, what&#39;s this?</title>
+        <description>&lt;p&gt;Thanks for checking in! You’ve reached yet another technical blog. This one is created and maintained by Erika Burdon, wannabe Software Engineer.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I’ve created this space in an effort to generate some tutorials on things that are difficult, and/or mildly confusing to learn with current resources. Things such as &lt;a href=&quot;https://aws.amazon.com/emr/&quot;&gt;Amazon Web Service’s Elastic Map Reduce&lt;/a&gt;. I used this service in a recent project, and it was bit of a doozy to master. A few friends of mine had a deep interest in using it themselves, but didn’t have time to climb the learning curve. There may also be the occassional motivational posts on engineering and skill development. Content will come as I learn them in my own projects, all of which are hosted live on my website &lt;a href=&quot;http://erikaburdon.ca&quot;&gt;erikaburdon.ca&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;If you have any suggestions for blog posts, questions, or just feel like saying hi, &lt;a href=&quot;mailto:erikaeburdon@gmail.com&quot;&gt;feel free to reach out&lt;/a&gt;!&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;who-are-you&quot;&gt;Who are you?&lt;/h3&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may have guessed it already, but my name is Erika Burdon. I’ll be graduating from the University of Victoria in Spring 2017 with a bachelor’s in Software Engineering. I’ve got a problem with wanting to learn everything but no time to do it. I’m most interested in program architectures, especially with how third party libraries are integrated into systems.  I’m also a whiz at cooking and love to wakeboard. I’m deeply interested in music, puns, and living on the west coast. Also, cats.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;http://erikaburdon.ca&quot;&gt;Website&lt;/a&gt; &lt;strong&gt;~&lt;/strong&gt; &lt;a href=&quot;https://github.com/eburdon&quot;&gt;Github&lt;/a&gt; &lt;strong&gt;~&lt;/strong&gt; &lt;a href=&quot;https://www.linkedin.com/in/eburdon&quot;&gt;LinkedIn&lt;/a&gt; &lt;strong&gt;~&lt;/strong&gt;  &lt;a href=&quot;https://twitter.com/OneEaredMusic&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;upcoming-content&quot;&gt;Upcoming content&lt;/h3&gt;
+
+&lt;p&gt;Let’s be honest. We’re all very busy people and life sometimes takes over with busy-ness. There’s overtime at work, and holidays coming up. Other times, you just don’t want to do anything at all. That said, there’s little worse than a dead blog. I hope to get at least 1 new post every 2 months. More likely, it’ll be 1 post per quarter, but a girl can dream. Check back when you can, or send me an email to let me know you’d like a notification when something new is up.&lt;/p&gt;
+
+&lt;p&gt;[AWS] &lt;br /&gt;
+ * Your first AWS EMR project &lt;br /&gt;
+ * Creating an microservice using AWS Lambda &lt;br /&gt;
+ * Spot vs Reserved Instances &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;[SKILL DEVELOPMENT] &lt;br /&gt;
+* Goodbye to the Comfort Zone &lt;br /&gt;
+* Long-term projects (Student Version) &lt;br /&gt;
+* Long-term projects (Professor Version) &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;[GENERAL] &lt;br /&gt; 
+* Mega-link thread of Resources &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;thanks-for-checking-in&quot;&gt;Thanks for checking in!&lt;/h3&gt;
 </description>
-        <pubDate>Sat, 17 Sep 2016 21:43:39 -0700</pubDate>
-        <link>http://example.com/jekyll/update/2016/09/17/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://example.com/jekyll/update/2016/09/17/welcome-to-jekyll.html</guid>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://eburdon.github.io/2016/09/08/hello/</link>
+        <guid isPermaLink="true">http://eburdon.github.io/2016/09/08/hello/</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>General</category>
         
       </item>
     
