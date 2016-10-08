@@ -1,28 +1,33 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: eburdon.github.io
-email: erikaeburdon@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hey there! I hope you're enjoying the raw template I've got here. I just set up github pages with Jekyll, so it's a bit... default right now. You can also check
-  out my fully-build site, erikaburdon.ca. Otherwise, stay tuned!
-baseurl: "eburdon.github.io" # the subpath of your site, e.g. /blog
-url: "http://eburdon.github.io" # the base hostname & protocol for your site
+email: erikaeburdon@gmail.com 
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics: 
+
+# SEO settings
+title: Erika's Blog
+description: AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.
+url: "http://eburdon.github.io"
 twitter_username: OneEaredMusic
-github_username:  eburdon
+default_img: 
+
+# Profile settings
+name: Erika Burdon
+profile_img: 
+profile: null
+social: 
+github: eburdon
 
 # Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-theme: minima
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
