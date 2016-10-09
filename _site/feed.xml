@@ -5,9 +5,64 @@
     <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Oct 2016 14:01:32 -0700</pubDate>
-    <lastBuildDate>Sat, 08 Oct 2016 14:01:32 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Oct 2016 15:56:31 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Oct 2016 15:56:31 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>ACCESS DENIED: Reset MySQL root user password</title>
+        <description>&lt;p&gt;This is an aggregation of various Stack Overflow posts, user tutorials, and official docs that helped me figure out how to reset my local MySQL root password.&lt;/p&gt;
+
+&lt;p&gt;Thanks to an early engineering assignment, my initial database setup got really screwed up. Being the middle of a semester, I didn’t have the time to fix it while still fresh. For future reference for myself and to help anyone else stuck in the same spot, this is a brief post on the steps I took that worked for my system.&lt;/p&gt;
+
+&lt;h3 id=&quot;stats&quot;&gt;Stats&lt;/h3&gt;
+
+&lt;p&gt;OS: Ubuntu 16.04.1 LTS&lt;/p&gt;
+
+&lt;p&gt;MySQL: 5.7.15&lt;/p&gt;
+
+&lt;h3 id=&quot;sit-rep&quot;&gt;Sit-rep&lt;/h3&gt;
+
+&lt;p&gt;You’ve installed, and re-installed, and tried to repair an old MySQL installation. Entering&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mysql -u root -p&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;followed by your password, returns an&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Access denied for user &#39;root&#39;@&#39;localhost&#39; &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;error, even though you’re sure it’s the right login. You’ve also already tried the official documentation on &lt;a href=&quot;http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html&quot;&gt;How to reset the root password&lt;/a&gt;, which failed.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;p&gt;yadda yadaa&lt;/p&gt;
+
+&lt;h4 id=&quot;one&quot;&gt;one&lt;/h4&gt;
+
+&lt;p&gt;aelgiuahge&lt;/p&gt;
+
+&lt;h4 id=&quot;two&quot;&gt;two&lt;/h4&gt;
+
+&lt;p&gt;halguharg&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;MySQL Reference Manual: &lt;a href=&quot;http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html&quot;&gt;How to reset the root password&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/30692812/mysql-user-db-does-not-have-password-columns-installing-mysql-on-osx&quot;&gt;MySQL User DB does not have password columns&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/11091414/how-to-stop-mysqld&quot;&gt;How to stop mysqld&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/37879448/mysql-fails-on-mysql-error-1524-hy000-plugin-auth-socket-is-not-loaded&quot;&gt;MySQL Fails on: mysql “ERROR 1524 (HY000)”&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://eburdon.github.io/2016/09/10/mysql-root-password/</link>
+        <guid isPermaLink="true">http://eburdon.github.io/2016/09/10/mysql-root-password/</guid>
+        
+        
+        <category>Databases</category>
+        
+      </item>
     
       <item>
         <title>Hello, what&#39;s this?</title>
