@@ -5,15 +5,15 @@
     <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 15:56:31 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 15:56:31 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 13:15:53 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 13:15:53 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>ACCESS DENIED: Reset MySQL root user password</title>
         <description>&lt;p&gt;This is an aggregation of various Stack Overflow posts, user tutorials, and official docs that helped me figure out how to reset my local MySQL root password.&lt;/p&gt;
 
-&lt;p&gt;Thanks to an early engineering assignment, my initial database setup got really screwed up. Being the middle of a semester, I didn’t have the time to fix it while still fresh. For future reference for myself and to help anyone else stuck in the same spot, this is a brief post on the steps I took that worked for my system.&lt;/p&gt;
+&lt;p&gt;Thanks to an early engineering assignment, my initial database setup got &lt;strong&gt;really&lt;/strong&gt; screwed up. Being the middle of a semester, I didn’t have the time to fix it. Now, a couple of updates later, I had to face the beast and get it working. For future reference for myself and for anyone else stuck, this is a brief post on the steps I took that worked for my system. All the tutorials I found during my fix-it session were either incomplete or not &lt;em&gt;quite&lt;/em&gt; right.&lt;/p&gt;
 
 &lt;h3 id=&quot;stats&quot;&gt;Stats&lt;/h3&gt;
 
@@ -31,19 +31,67 @@
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Access denied for user &#39;root&#39;@&#39;localhost&#39; &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;error, even though you’re sure it’s the right login. You’ve also already tried the official documentation on &lt;a href=&quot;http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html&quot;&gt;How to reset the root password&lt;/a&gt;, which failed.&lt;/p&gt;
+&lt;p&gt;error, even though you’re sure it’s the right login. You’ve also already tried the official documentation on &lt;a href=&quot;http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html&quot;&gt;How to reset the root password&lt;/a&gt;, which failed. Maybe you even tried to repackage the deb file with&lt;/p&gt;
 
-&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo dpkg-reconfigure mysql-server-5.7&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;yadda yadaa&lt;/p&gt;
+&lt;p&gt;which failed. Have no fear - where there’s a terminal, there’s a way.&lt;/p&gt;
 
-&lt;h4 id=&quot;one&quot;&gt;one&lt;/h4&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;aelgiuahge&lt;/p&gt;
+&lt;h3 id=&quot;step-1&quot;&gt;Step 1&lt;/h3&gt;
 
-&lt;h4 id=&quot;two&quot;&gt;two&lt;/h4&gt;
+&lt;p&gt;Shut down Mysql. Try&lt;/p&gt;
 
-&lt;p&gt;halguharg&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo service mysql stop&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo /etc/init.d/mysql stop&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or looking up the PID and killing it. Make sure it’s stopped via:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;service mysql status&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-2&quot;&gt;Step 2&lt;/h3&gt;
+
+&lt;p&gt;Start MySQL in safe mode without a password:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mysqld_safe --skip-grant-tables &amp;amp;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Caution: this is insecure! I had no data in any of my tables, which meant I wasn’t worried about malicious reads. The ‘skip’ option enables anyone to connect without a password with full privileges. If you have &lt;em&gt;any&lt;/em&gt; concerns about your tables, you should also diable any remote access with:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;--skip-networking&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-3&quot;&gt;Step 3&lt;/h3&gt;
+
+&lt;p&gt;In a new terminal, connect to MySQL server with the &lt;code class=&quot;highlighter-rouge&quot;&gt;mysql&lt;/code&gt; client. No password is neccessary. Execute the following steps:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;use mysql;&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;UPDATE user SET authentication_string=PASSWORD(&quot;securepassword&quot;) where User=&#39;root&#39;;&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;UPDATE user SET plugin=&quot;mysql_native_password&quot;;&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;FLUSH PRIVILEGES;&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;quit;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Brief explanation: The second line is obviously where you set your password. One difference between MySQL 5.6 or older, and the latest 5.7+ is the column name switch from &lt;code class=&quot;highlighter-rouge&quot;&gt;PASSWORD&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;AUTHENTICATION_STRING.&lt;/code&gt; Older tutorials obviously use the former.&lt;/p&gt;
+
+&lt;p&gt;If you miss the third ‘set plugin’ statement, you’ll successfully update your password but still won’t be able to connect to your server. My system, for example, had the plugin value set to ‘auth socket.’ Even with the right login details, my server threw errors about my missing socket, and I needed to shut down, restart in safe mode, and switch both values again.&lt;/p&gt;
+
+&lt;p&gt;Finally, the ‘flush privileges’ command reloads the server’s in-memory copy of the grant tables. Modifying the user table with UPDATE doesn’t load the changes into the tables immediately, unlike the higher-level GRANT or SET commands.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-4&quot;&gt;Step 4&lt;/h3&gt;
+
+&lt;p&gt;Stop your safe mysqld, and start the mysql server normally. You should be able to connect with your new password via&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mysql -u root -p&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Enjoy your new database access!&lt;/p&gt;
 
 &lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
 
@@ -54,6 +102,8 @@
 &lt;p&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/11091414/how-to-stop-mysqld&quot;&gt;How to stop mysqld&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/37879448/mysql-fails-on-mysql-error-1524-hy000-plugin-auth-socket-is-not-loaded&quot;&gt;MySQL Fails on: mysql “ERROR 1524 (HY000)”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://dbahire.com/stop-using-flush-privileges/&quot;&gt;Stop Using Flush Privileges&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
         <link>http://eburdon.github.io/2016/09/10/mysql-root-password/</link>
