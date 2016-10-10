@@ -9,4 +9,5 @@ Theme + template provided by [Trophy](https://github.com/thomasvaeth/trophy-jeky
 #### Notes:
 
 Serving locally:
-'bundle exec jekyll serve'
+
+`bundle exec jekyll serve`
