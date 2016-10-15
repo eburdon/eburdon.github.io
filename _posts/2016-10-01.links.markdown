@@ -1,0 +1,43 @@
+
+---
+layout: post
+title: "Useful Links"
+date: 2016-10-01
+categories:
+  - General
+description: 
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
+---
+
+Not a blog post. Just a link repository.
+
+This is an evolving doc of links I think everyone will find useful at some point. I clear out my bookmarks pretty frequently. I need a glacier-style link repo for things I want access to once-a-season.
+
+If you have useful links to add, feel free to make a Pull Request on this [Github blog repo](https://github.com/eburdon/eburdon.github.io).
+
+## Careers
+
+* Github: [Victoria Startup Job Posting List](https://github.com/sendwithus/vic-startup-jobs)
+
+## Skill Development
+
+* Imgur: [Websites to Sharpen Your Programming Skills](http://imgur.com/gallery/qr9gq)
+
+* Google [Code Jam](https://code.google.com/codejam/contests.html)
+
+* [Project Euler](https://projecteuler.net/)
+
+* Topcoder: [Problem Archive](https://community.topcoder.com/tc?module=ProblemArchive)
+
+## Research
+
+* Research at Google: [Jeffrey Dean](http://research.google.com/pubs/jeff.html)
+
+## Sounds to focus with
+
+* [Coffitivity](https://coffitivity.com/)
+
+## Ubuntu
+
+* Stack Exchange: [How do I reset a lost administrative password?](http://askubuntu.com/questions/24006/how-do-i-reset-a-lost-administrative-password)
