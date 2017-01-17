@@ -5,6 +5,8 @@ date: 2016-09-10
 categories:
   - Databases
 description: How to reset local MySQL (5.7) root user password on Ubuntu (16.04)
+image_key: Dt9kdskj6ek
+image_name: "Drew Coffman"
 image: https://source.unsplash.com/Dt9kdskj6ek/2000x1200
 image-sm: https://source.unsplash.com/Dt9kdskj6ek/500x300
 ---
@@ -102,3 +104,5 @@ Stack Overflow: [How to stop mysqld](http://stackoverflow.com/questions/11091414
 Stack Overflow: [MySQL Fails on: mysql "ERROR 1524 (HY000)"](http://stackoverflow.com/questions/37879448/mysql-fails-on-mysql-error-1524-hy000-plugin-auth-socket-is-not-loaded)
 
 [Stop Using Flush Privileges](http://dbahire.com/stop-using-flush-privileges/)
+
+### You're done!

@@ -5,6 +5,8 @@ date: 2017-01-09
 categories:
   - General
 description: Ok. Let's ACTUALLY start this blog.
+image_key: YCQFgqOzLmU
+image_name: "Kari Shea"
 image: https://source.unsplash.com/YCQFgqOzLmU/2000x1200
 image-sm: https://source.unsplash.com/YCQFgqOzLmU/500x300
 ---
@@ -54,8 +56,3 @@ I just really love his website. [Here](http://benhalpern.com/).
 <br/>
 
 ## What are your project goals & shoutouts to kick off 2017?
-
-<br/>
-
-Tweet me at [@OneEaredMusic](https://twitter.com/OneEaredMusic)
-

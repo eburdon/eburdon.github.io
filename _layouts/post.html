@@ -23,6 +23,13 @@ layout: default
 
   <section class="section-padding post" itemprop="articleBody">
     {{ content }}
+
+    <div style="padding-top: 24px;"">
+      Send me a Tweet <a href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a>
+    </div>
+    <div style="padding-top: 12px; font-style:italic;">
+      As always, image sourced from <a href="https://unsplash.com/">Unsplash</a>. By <a href="https://unsplash.com/photos/{{page.image_key}}">{{page.image_name}}.</a> 
+    </div>
   </section>
 
   {% if site.profile %}

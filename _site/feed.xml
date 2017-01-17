@@ -5,8 +5,8 @@
     <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Jan 2017 08:11:57 -0800</pubDate>
-    <lastBuildDate>Tue, 17 Jan 2017 08:11:57 -0800</lastBuildDate>
+    <pubDate>Tue, 17 Jan 2017 09:59:45 -0800</pubDate>
+    <lastBuildDate>Tue, 17 Jan 2017 09:59:45 -0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -51,10 +51,6 @@ Sign-in Email Address: email@email
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-do-you-think-of-emailing-users-their-account-information-on-sign-up-still-required-should-passwords-be-included&quot;&gt;What do you think of emailing users their account information on sign-up? Still required? Should passwords be included?&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;As always, image sourced from Unsplash. By &lt;a href=&quot;https://unsplash.com/photos/MZnuRv1ZASk&quot;&gt;Rob Sarmiento&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jan 2017 00:00:00 -0800</pubDate>
         <link>http://eburdon.github.io/2017/01/17/on-plaintext-login/</link>
@@ -112,11 +108,6 @@ Sign-in Email Address: email@email
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-are-your-project-goals--shoutouts-to-kick-off-2017&quot;&gt;What are your project goals &amp;amp; shoutouts to kick off 2017?&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tweet me at &lt;a href=&quot;https://twitter.com/OneEaredMusic&quot;&gt;@OneEaredMusic&lt;/a&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 -0800</pubDate>
         <link>http://eburdon.github.io/2017/01/09/updates-and-goals/</link>
@@ -222,6 +213,8 @@ Sign-in Email Address: email@email
 &lt;p&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/37879448/mysql-fails-on-mysql-error-1524-hy000-plugin-auth-socket-is-not-loaded&quot;&gt;MySQL Fails on: mysql “ERROR 1524 (HY000)”&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://dbahire.com/stop-using-flush-privileges/&quot;&gt;Stop Using Flush Privileges&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;youre-done&quot;&gt;You’re done!&lt;/h3&gt;
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
         <link>http://eburdon.github.io/2016/09/10/mysql-root-password/</link>

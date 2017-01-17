@@ -4,9 +4,11 @@ title: "Hello, what's this?"
 date: 2016-09-08
 categories:
   - General
-description: 
-image: https://unsplash.it/2000/1200?image=1003
-image-sm: https://unsplash.it/500/300?image=1003
+description:
+image_key: GYumuBnTqKc
+image_name: "E+N Photographies"
+image:  https://source.unsplash.com/GYumuBnTqKc/2000x1200
+image-sm:  https://source.unsplash.com/GYumuBnTqKc/500x300
 ---
 Thanks for checking in! You've reached yet another technical blog. This one is created and maintained by Erika Burdon, wannabe Software Engineer.
 

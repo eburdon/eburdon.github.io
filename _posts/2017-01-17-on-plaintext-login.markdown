@@ -5,6 +5,8 @@ date: 2017-01-17
 categories:
   - Security
 description: Should account login details be sent to users on sign-up?
+image_key: MZnuRv1ZASk
+image_name: "Rob Sarimento"
 image: https://source.unsplash.com/MZnuRv1ZASk/2000x1200
 image-sm: https://source.unsplash.com/MZnuRv1ZASk/500x300
 ---
@@ -45,7 +47,3 @@ I reached out to the new community's help desk and was really happy with the res
 <br/>
 
 ## What do you think of emailing users their account information on sign-up? Still required? Should passwords be included?
-
-<br/>
-
-*As always, image sourced from Unsplash. By [Rob Sarmiento](https://unsplash.com/photos/MZnuRv1ZASk).*
