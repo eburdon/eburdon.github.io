@@ -5,9 +5,65 @@
     <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Jan 2017 10:35:29 -0800</pubDate>
-    <lastBuildDate>Mon, 09 Jan 2017 10:35:29 -0800</lastBuildDate>
+    <pubDate>Tue, 17 Jan 2017 08:11:57 -0800</pubDate>
+    <lastBuildDate>Tue, 17 Jan 2017 08:11:57 -0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>On Plaintext Login Details</title>
+        <description>&lt;p&gt;Recently, I registered for a new online community for ladies in technology. Part of the whole “get-out-there” goal. I went through the standard process of signing up with my email, using &lt;a href=&quot;https://www.lastpass.com/&quot;&gt;LastPass&lt;/a&gt; to generate a new password and save the entry in my vault, so on and so forth. I was pretty alarmed when I received an email half a minute later with all my login details… &lt;em&gt;including the password in plaintext&lt;/em&gt;!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;Congratulations on entering the tech community!
+
+The login information for your account is: 
+Email: email@email
+Password: password
+
+...&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;What are your thoughts on this? I asked around - it seems like this used to be standard practice. It’s old, but still fine to use.&lt;/p&gt;
+
+&lt;p&gt;I explored the community a bit more and it was clear that the website doesn’t handle any personal information about it’s users. There’s no profile or chat section. The website is mostly links to local events and job postings. It’s clear this isn’t a high-security venture and strong password protection may not be necessary. That said, I truly think all services should take every step they can to help users protect and increase their online security. What if I wasn’t using a password generator, and my unique password was actually already in use on another platform? Oops.&lt;/p&gt;
+
+&lt;p&gt;As an alternative, look at how Slack handles new users. When registering for a new channel, you receive a little email like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;Your Slack Account Information
+
+Hi Erika, 
+
+Welcome to Slack! You&#39;ve joined the team teamName. In case it&#39;s handy,
+here&#39;s a copy of your account details:
+
+Team Name: teamName
+Team Domain: http://teamURL
+Sign-in Email Address: email@email
+
+...&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This serves the same purpose with all the info you need without the password. I like how it doesn’t assume my email inbox is absolutely secure while still providing useful information I can archive.&lt;/p&gt;
+
+&lt;p&gt;I reached out to the new community’s help desk and was really happy with the response. The company they hired said it’s standard to include the password, but the community agreed that it should be removed for the extra security and so it will be phased out.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-you-think-of-emailing-users-their-account-information-on-sign-up-still-required-should-passwords-be-included&quot;&gt;What do you think of emailing users their account information on sign-up? Still required? Should passwords be included?&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As always, image sourced from Unsplash. By &lt;a href=&quot;https://unsplash.com/photos/MZnuRv1ZASk&quot;&gt;Rob Sarmiento&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Jan 2017 00:00:00 -0800</pubDate>
+        <link>http://eburdon.github.io/2017/01/17/on-plaintext-login/</link>
+        <guid isPermaLink="true">http://eburdon.github.io/2017/01/17/on-plaintext-login/</guid>
+        
+        
+        <category>Security</category>
+        
+      </item>
     
       <item>
         <title>Updates and Goals</title>
