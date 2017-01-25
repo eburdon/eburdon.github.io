@@ -5,9 +5,81 @@
     <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Jan 2017 09:59:45 -0800</pubDate>
-    <lastBuildDate>Tue, 17 Jan 2017 09:59:45 -0800</lastBuildDate>
+    <pubDate>Tue, 24 Jan 2017 15:51:48 -0800</pubDate>
+    <lastBuildDate>Tue, 24 Jan 2017 15:51:48 -0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Canadian Digital Security and Privacy Resources</title>
+        <description>&lt;p&gt;If I haven’t made it clear before, I am Canadian. I live on the West Coast, far far away from the country’s Capital. Politically, we’re having a bit of a housing crisis at the moment. However, that’s about all I can tell you about the current Canadian political sphere. And that’s just sad.&lt;/p&gt;
+
+&lt;p&gt;It’s incredible how over saturated we are with American politics. I pay particular attention to American digital surveillance and privacy concerns even though I’m harboured away in my northern corner. I especially paid attention to those raised during the most recent American election cycle - Hilary v Trump ideas on encryption, backdoor access, surveillance, Snowden’s revelations… the list goes on and on and on. I know so much about each of them, and next to none about exact Canadian issues that directly affect me! I want to keep track of the direction Canadian digital issues are moving towards.&lt;/p&gt;
+
+&lt;p&gt;I’ve tried to find good resources on my own, but it’s hard to find something reliable and ongoing. So now, I’m crowd sourcing. I’d like to ask &lt;strong&gt;you&lt;/strong&gt; for help.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-ive-done-so-far&quot;&gt;What I’ve done so far&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve asked professors, colleagues, and fellow students for resources. I’ve just written letters to my local MLA, BC Premier, and the Right Honourable Prime Minister of Canada asking about which digital issues concern them, and for resources I can use to keep informed. Now I’ve made this blog post to maintain as a repository for all.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-you-have-any-links-to-online-resources---specific-journalists-publications-or-websites---keeping-track-of-canadian-digital-security-and-privacy-concerns&quot;&gt;Do you have any links to online resources - specific journalists, publications, or websites - keeping track of Canadian Digital Security and Privacy Concerns?&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This includes surveillance, encryption, information sharing, legal precedents, bills waiting to be approved, &lt;strong&gt;anything&lt;/strong&gt; related to the digital technology rights and freedoms of Canadians.&lt;/p&gt;
+
+&lt;p&gt;Any medium is good with me - active twitter users, bloggers, and/or larger businesses. It can be subscription-based, or free. It can even be printed. In the age of fake news, sources that people trust need to be highlighted.&lt;/p&gt;
+
+&lt;p&gt;Please send them to me either by tweeting (or DM) me at &lt;a href=&quot;https://twitter.com/OneEaredMusic&quot;&gt;@OneEaredMusic&lt;/a&gt;, or emailing me at &lt;strong&gt;erikaeburdon_at_gmail&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-list&quot;&gt;THE LIST&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m going to keep the following list updated with any and all resources I receive. I’m not going to decide how good they are. If enough people declare one resource as poor, I’ll move it. Overall I hope this becomes a repository to help anyone keep informed about the current state of Canadian Digital Security and Privacy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Link&lt;/th&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;What&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.trudeaumetre.ca/&quot;&gt;https://www.trudeaumetre.ca/&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;General Politics&lt;/td&gt;
+      &lt;td&gt;Trudeau Meter: Keeps track of Justin Trudeau’s election promises.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://news.gc.ca/web/index-en.do&quot;&gt;http://news.gc.ca/web/index-en.do&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;General Canadian Affairs&lt;/td&gt;
+      &lt;td&gt;Latest news from Government of Canada&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.michaelgeist.ca/tech-law-topics/&quot;&gt;http://www.michaelgeist.ca/tech-law-topics/&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Tech Law Topics&lt;/td&gt;
+      &lt;td&gt;Michael Geist: Journalist&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;… to be continued.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Jan 2017 00:00:00 -0800</pubDate>
+        <link>http://eburdon.github.io/2017/01/24/canadian-digital-privacy-resources/</link>
+        <guid isPermaLink="true">http://eburdon.github.io/2017/01/24/canadian-digital-privacy-resources/</guid>
+        
+        
+        <category>Security</category>
+        
+      </item>
     
       <item>
         <title>On Plaintext Login Details</title>
