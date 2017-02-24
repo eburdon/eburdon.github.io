@@ -5,9 +5,28 @@
     <description>AWS-focused tutorials for services that are tough to learn with existing resources. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Jan 2017 15:51:48 -0800</pubDate>
-    <lastBuildDate>Tue, 24 Jan 2017 15:51:48 -0800</lastBuildDate>
+    <pubDate>Fri, 24 Feb 2017 08:04:45 -0800</pubDate>
+    <lastBuildDate>Fri, 24 Feb 2017 08:04:45 -0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>C Pointer Review</title>
+        <description>&lt;p&gt;I was recently bogged down with an embedded systems project that took much longer than it should have. Part of the problem was using pointers again, so long after learning them the first time. All answers on Stack Overflow were obvious once I saw them again, but what I really needed to be more effective was raw review and practice outside of project pressure.&lt;/p&gt;
+
+&lt;p&gt;A lot of language tutorials go have detailed descriptions for each component of whatever they’re doing along with small code snippets to help “connect-the-dots.” They’re meant to teach. This post ends in a few sentences with a commented &amp;amp; ready-to run C file reviewing basic C pointer assignment and access, arrays &amp;amp; array pointers, structures and pointers, and function pointers. The comments will walk you through the code, while the output is experimental “proof” that it works.&lt;/p&gt;
+
+&lt;p&gt;I hope you find it helpful - happy reviewing!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/eburdon/9c34e719fa7dc872bc32639a7d5a3180&quot;&gt;gist.github.com - A Review of C Pointers&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Feb 2017 00:00:00 -0800</pubDate>
+        <link>http://eburdon.github.io/2017/02/24/C-pointer-review/</link>
+        <guid isPermaLink="true">http://eburdon.github.io/2017/02/24/C-pointer-review/</guid>
+        
+        
+        <category>C</category>
+        
+      </item>
     
       <item>
         <title>Canadian Digital Security and Privacy Resources</title>
