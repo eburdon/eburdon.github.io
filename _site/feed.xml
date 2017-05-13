@@ -5,15 +5,67 @@
     <description>Software Engineering Blog with Tutorials. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
     <link>http://eburdon.github.io/</link>
     <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Apr 2017 17:03:31 -0700</pubDate>
-    <lastBuildDate>Wed, 05 Apr 2017 17:03:31 -0700</lastBuildDate>
+    <pubDate>Fri, 12 May 2017 18:13:12 -0700</pubDate>
+    <lastBuildDate>Fri, 12 May 2017 18:13:12 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Advice for My Younger Undergraduate Self</title>
+        <description>&lt;p&gt;After a long 6 year degree (and short 3 weeks of reflection) I’ve created 5 pieces of advice for my younger self, the epitome of “junior dev.” I didn’t touch my first line of code until second semester and now I’m entering the workforce.&lt;/p&gt;
+
+&lt;p&gt;I hope new students entering their technical degrees will find this as helpful as I probably would have. It’s not all fun and games and it’s not always exciting, but it was absolutely worth it for me. This is an opinion piece - I would love to get your response.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-limit-your-courseload&quot;&gt;1. Limit your courseload!&lt;/h3&gt;
+
+&lt;p&gt;The university you picked suggests taking 6 courses a semester, &lt;em&gt;every&lt;/em&gt; semester, to graduate within 4-5 years. I reduced that to 5 courses a semester and it was still not worth it.&lt;/p&gt;
+
+&lt;p&gt;I deeply wish I took more time in first and second year to master the fundamentals of math. Things like limits in calculus, matrix-vector multiplication in linear algebra, and the nitty gritty of sorting algorithms. I’m able to sit and figure it out, but I wish I had intuition. With 5 courses, I felt so overworked. As soon as I finished one assignment, I had to move on to the next for a different course. Constant context switching was harsh and I never gave an idea the chance to sink in.&lt;/p&gt;
+
+&lt;p&gt;I would strongly recommend 4 courses. If you find yourself bored with a little &lt;em&gt;too&lt;/em&gt; much free time, I would then suggest personal projects. Chase your ideas! Let some things fail, and let somethings pass out of interest and go into your GitHub graveyard.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-register-for-your-schools-internship-program&quot;&gt;2. Register for your school’s internship program&lt;/h3&gt;
+
+&lt;p&gt;At my university, all engineering disciplines are required to complete 16 months co-operative education (co-op). However, for Computer Science students, this requirement is optional and has an application process.&lt;/p&gt;
+
+&lt;p&gt;I am truly surprised at how many people try to evade or drop their co-op requirements. It’s so valuable! I believe I would have failed my distributed systems course if I had not just returned from work on a web platform. Remember that intuition I wish I had for math? Real work gave that to me and it was trivial to apply it to schoolwork. Adding to that, you graduate with 1.5 years of experience before you’re even part of the workforce!&lt;/p&gt;
+
+&lt;p&gt;I found the primary reason for people dropping their co-ops was so they could graduate faster. In that case, they sacrificed work-learning opportunity as a student to enter the workforce as a professional. I understand the drain of being tethered to the university but taking an internship as a student means both parties have a better understanding of your limits. Plus, it’s a limited time frame. If you don’t like working in that sector (e.g., embedded systems), you’re able to return to school and change your focus. I think it’s better to do that as a student rather than while your long-term livelihood depends on it.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-try-personal-projects-but-dont-beat-yourself-up-if-you-need-a-break&quot;&gt;3. Try personal projects, but don’t beat yourself up if you need a break&lt;/h3&gt;
+
+&lt;p&gt;You’ll hear from every developer and their mothers the importance of personal projects. With 4 courses, it might be possible to generate an idea and run with it. Just don’t ignore the equally important work-life balance. It’s unreasonable to expect yourself to spend every waking moment going between lectures, assignments, and extra code on top.&lt;/p&gt;
+
+&lt;p&gt;If it’s a small idea, try hosting a 24-hour hackathon with some friends and co-students and see what comes from it. If it’s larger, work on it when you can on weekends or off-hours, but don’t worry if nothing new is added during a single semester.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-you-really-wont-know-enough-when-you-graduate&quot;&gt;4. You really won’t know enough when you graduate&lt;/h3&gt;
+
+&lt;p&gt;I’ve seen fellow classmates blow off some potentially &lt;em&gt;great&lt;/em&gt; companies because they only had junior positions open. I guess they figured that they’ve got a degree and some internship experience now. They fit squarely in the ‘intermediate’ category… which isn’t always true.&lt;/p&gt;
+
+&lt;p&gt;Your degree should have given given you a broad exposure to lots of technologies and problems in the sphere. It’s given you  exposure to security (block-chaining, encryption, …), to development methods (waterfall, agile), low-level programming (assembly), development paradigms, NP and NP-hard problems, and so on. Some of these lessons were your first and last exposure to the topic - you may not have had the chance to dive deep into those ideas. The degree may also have sacrificed teaching you directly applicable things in favor of more theory.&lt;/p&gt;
+
+&lt;p&gt;For example, my program had barely any lessons on testing frameworks, writing unit tests, load testing, and TDD. I mean, there was a single mandatory course titled “Software Quality Engineering” but it was strictly reactive, writing tests for a known broken program. In new development, engineers might follow TDD and write unit, integration, and load tests while they’re developing, not after. It never went into things like &lt;a href=&quot;https://sourcemaking.com/refactoring/smells&quot;&gt;code smells&lt;/a&gt; or long-term consequences of technical debt. This is something you learn as a member of the professional world. You might not know it as a junior / new grad.&lt;/p&gt;
+
+&lt;p&gt;The intent of your degree is to teach you the fundamentals of coding, discipline, and critical thinking. Every company you meet during your job hunt will be using different stacks, third-party systems, and management styles. Once you graduate, the real learning starts. And that’s the most exciting part.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-generic-advice-everyone-is-worried-have-some-fun-etc&quot;&gt;4. Generic Advice: Everyone is worried, have some fun, etc…&lt;/h3&gt;
+
+&lt;p&gt;This one’s been said many times in many other blogs, but it’s true: you’re not the only one who’s worried. Many people worry they’re going to fail a course because they suck at coding. Keep learning, that’s the whole point. &lt;em&gt;Everyone&lt;/em&gt; is stressed and feels like they’re far behind. Similarly, post-secondary may or may not be the best time of your life. You might finish early or you might take way longer than you expect. Either way, being a full-time student is a unique period of your life with strange freedoms (and limits) you won’t have once you start working. Enjoy it. It’s over so soon.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Feb 2017 00:00:00 -0800</pubDate>
+        <link>http://eburdon.github.io/2017/02/24/advice-for-my-younger-self/</link>
+        <guid isPermaLink="true">http://eburdon.github.io/2017/02/24/advice-for-my-younger-self/</guid>
+        
+        
+        <category>General</category>
+        
+      </item>
     
       <item>
         <title>C Pointer Review</title>
         <description>&lt;p&gt;I was recently bogged down with an embedded systems project that took much longer than it should have. Part of the problem was using pointers again, so long after learning them the first time. All answers on Stack Overflow were obvious once I saw them again, but what I really needed to be more effective was raw review and practice outside of project pressure.&lt;/p&gt;
 
-&lt;p&gt;A lot of language tutorials go have detailed descriptions for each component of whatever they’re doing along with small code snippets to help “connect-the-dots.” They’re meant to teach. This post ends in a few sentences with a commented &amp;amp; ready-to run C file reviewing basic C pointer assignment and access, arrays &amp;amp; array pointers, structures and pointers, and function pointers. The comments will walk you through the code, while the output is experimental “proof” that it works.&lt;/p&gt;
+&lt;p&gt;A lot of language tutorials have detailed descriptions for each component of whatever they’re doing, along with small code snippets to help “connect-the-dots.” They’re meant to teach. &lt;em&gt;This&lt;/em&gt; post ends in a few sentences with a commented &amp;amp; ready-to run file reviewing basic C pointer assignment and access, arrays, structs, and function pointers. The comments will walk you through the code, while the output is experimental “proof” that it works.&lt;/p&gt;
 
 &lt;p&gt;I hope you find it helpful - happy reviewing!&lt;/p&gt;
 
