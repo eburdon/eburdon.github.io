@@ -3,11 +3,58 @@
   <channel>
     <title>Erika's Blog</title>
     <description>Software Engineering Blog with Tutorials. Created by Erika Burdon. Live examples hosted at erikaburdon.ca.</description>
-    <link>http://eburdon.github.io/</link>
-    <atom:link href="http://eburdon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 May 2017 18:13:12 -0700</pubDate>
-    <lastBuildDate>Fri, 12 May 2017 18:13:12 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 11 Sep 2017 21:58:53 -0700</pubDate>
+    <lastBuildDate>Mon, 11 Sep 2017 21:58:53 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Implementing Video Chat with PeerJS</title>
+        <description>&lt;p&gt;Today I’d like to lay the groundwork for what will be a longer project. I’d like to explore bringing live closed-captioning to real-time video using IBM’s &lt;a href=&quot;https://www.ibm.com/watson/products-services/&quot;&gt;Watson&lt;/a&gt; supercomputer. I chose &lt;a href=&quot;http://peerjs.com/&quot;&gt;PeerJS&lt;/a&gt; as my video service because it’s a) simple, b) accessible API, c) free to use their basic server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Click here to jump down to the tutorial&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;IBM’s &lt;a href=&quot;https://www.ibm.com/watson/products-services/&quot;&gt;Watson&lt;/a&gt; is a supercomputer with a number of products and services available to developers. Most interestingly, they have a &lt;a href=&quot;https://www.ibm.com/watson/services/speech-to-text/&quot;&gt;speech to text&lt;/a&gt; service to quickly convert audio into written text.&lt;/p&gt;
+
+&lt;p&gt;I don’t know if it will work, but I wanted to look into building a service that could stream live audio into Watson, then return a stream captions to overlay on the video. The first step is setting up the connection.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://peerjs.com/&quot;&gt;PeerJS&lt;/a&gt; wraps the browser’s &lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt; (Real-Time Communications) implementation in an even simpler API. This enables easy peer-to-peer connections. It meets my needs for a quick and accessible API to set up a secure chat. Additionally, with the free server PeerJS provides, developers don’t need to go into the backend.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ubuntu 16.04 &lt;br /&gt;
+Chrome 60.0.3112.113 &lt;br /&gt;
+PeerJS 0.3.14&lt;/p&gt;
+
+&lt;h3 id=&quot;other-options&quot;&gt;Other Options&lt;/h3&gt;
+
+&lt;p&gt;Before PeerJS, I looked at a number of other potential video services&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/+/hangouts/&quot;&gt;Google+ Hangouts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This landed on my radar as my office’s video chat app of choice. However, the API was depreacted earlier in the year, rendering it a moo point.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dev.skype.com/addins&quot;&gt;Skype Add-ins&lt;/a&gt; At the time of investigating and this writing, developer-add ins which enable chatting between users are not available.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/zoom/sample-app-web&quot;&gt;Zoom&lt;/a&gt; When I first looked, there wasn’t much there. Now, it looks like there’s a webclient SDK, but unclear if there’s any video functionality.&lt;/p&gt;
+
+&lt;p&gt;There were also some other free apis of varying complexity, along with some paid services. Ultimately, I decided on PeerJS for it’s simplicity. I was also itching for some practice in VanillaJS - it was a perfect match.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-good-stuff&quot;&gt;The Good Stuff&lt;/h3&gt;
+
+&lt;p&gt;Tutorial Goes Here&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/09/11/peerjs-video-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/11/peerjs-video-tutorial/</guid>
+        
+        
+        <category>General</category>
+        
+      </item>
     
       <item>
         <title>Advice for My Younger Undergraduate Self</title>
@@ -53,8 +100,8 @@
 
 </description>
         <pubDate>Fri, 24 Feb 2017 00:00:00 -0800</pubDate>
-        <link>http://eburdon.github.io/2017/02/24/advice-for-my-younger-self/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2017/02/24/advice-for-my-younger-self/</guid>
+        <link>http://localhost:4000/2017/02/24/advice-for-my-younger-self/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/24/advice-for-my-younger-self/</guid>
         
         
         <category>General</category>
@@ -72,8 +119,8 @@
 &lt;p&gt;&lt;a href=&quot;https://gist.github.com/eburdon/9c34e719fa7dc872bc32639a7d5a3180&quot;&gt;gist.github.com - A Review of C Pointers&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 24 Feb 2017 00:00:00 -0800</pubDate>
-        <link>http://eburdon.github.io/2017/02/24/C-pointer-review/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2017/02/24/C-pointer-review/</guid>
+        <link>http://localhost:4000/2017/02/24/C-pointer-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/24/C-pointer-review/</guid>
         
         
         <category>C</category>
@@ -144,8 +191,8 @@
 &lt;p&gt;… to be continued.&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://eburdon.github.io/2017/01/24/canadian-digital-privacy-resources/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2017/01/24/canadian-digital-privacy-resources/</guid>
+        <link>http://localhost:4000/2017/01/24/canadian-digital-privacy-resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/24/canadian-digital-privacy-resources/</guid>
         
         
         <category>Security</category>
@@ -196,8 +243,8 @@ Sign-in Email Address: email@email
 &lt;h2 id=&quot;what-do-you-think-of-emailing-users-their-account-information-on-sign-up-still-required-should-passwords-be-included&quot;&gt;What do you think of emailing users their account information on sign-up? Still required? Should passwords be included?&lt;/h2&gt;
 </description>
         <pubDate>Tue, 17 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://eburdon.github.io/2017/01/17/on-plaintext-login/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2017/01/17/on-plaintext-login/</guid>
+        <link>http://localhost:4000/2017/01/17/on-plaintext-login/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/17/on-plaintext-login/</guid>
         
         
         <category>Security</category>
@@ -253,8 +300,8 @@ Sign-in Email Address: email@email
 &lt;h2 id=&quot;what-are-your-project-goals--shoutouts-to-kick-off-2017&quot;&gt;What are your project goals &amp;amp; shoutouts to kick off 2017?&lt;/h2&gt;
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://eburdon.github.io/2017/01/09/updates-and-goals/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2017/01/09/updates-and-goals/</guid>
+        <link>http://localhost:4000/2017/01/09/updates-and-goals/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/09/updates-and-goals/</guid>
         
         
         <category>General</category>
@@ -360,8 +407,8 @@ Sign-in Email Address: email@email
 &lt;h3 id=&quot;youre-done&quot;&gt;You’re done!&lt;/h3&gt;
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://eburdon.github.io/2016/09/10/mysql-root-password/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2016/09/10/mysql-root-password/</guid>
+        <link>http://localhost:4000/2016/09/10/mysql-root-password/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/10/mysql-root-password/</guid>
         
         
         <category>Databases</category>
@@ -408,8 +455,8 @@ Sign-in Email Address: email@email
 &lt;h3 id=&quot;thanks-for-checking-in&quot;&gt;Thanks for checking in!&lt;/h3&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://eburdon.github.io/2016/09/08/hello/</link>
-        <guid isPermaLink="true">http://eburdon.github.io/2016/09/08/hello/</guid>
+        <link>http://localhost:4000/2016/09/08/hello/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/08/hello/</guid>
         
         
         <category>General</category>

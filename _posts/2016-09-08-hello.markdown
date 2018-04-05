@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello, what's this?"
-date: 2016-09-08
+date: 2016-09-08 V8
 categories:
   - General
 description:
@@ -38,7 +38,7 @@ Let's be honest. We're all very busy people and life sometimes takes over with b
 * Long-term projects (Student Version) <br/>
 * Long-term projects (Professor Version) <br/>
 
-[GENERAL] <br/> 
+[GENERAL] <br/>
 * Mega-link thread of Resources <br/>
 
 ### Thanks for checking in!
