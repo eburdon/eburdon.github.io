@@ -5,10 +5,10 @@ date: 2017-02-24
 categories:
   - General
 description: 5 pieces of advice after a 6 year degree
-image_key: cYUMaCqMYvI
-image_name: "Faustin Tuyambaze"
-image: https://source.unsplash.com/32jpXPNlmqY/2000x1200
-image-sm: https://source.unsplash.com/32jpXPNlmqY/500x300
+image_key: RIcMwDLk1wo
+image_name: "Caleb Woods"
+image: https://source.unsplash.com/RIcMwDLk1wo/2000x1200
+image-sm: https://source.unsplash.com/RIcMwDLk1wo/500x300
 ---
 
 After a long 6 year degree (and short 3 weeks of reflection) I've created 5 pieces of advice for my younger self, the epitome of "junior dev." I didn't touch my first line of code until second semester and now I'm entering the workforce.
