@@ -1,13 +1,7 @@
 # eburdon.github.io
-Github hosted Jekll Blog-style page.
 
-### Theme
+A temporary github-hosted static page I'll be using for various demos and small projects. Nohing of production value will be stored here.
 
-Theme + template provided by [Trophy](https://github.com/thomasvaeth/trophy-jekyll) (MIT License). I loved this template, and want to focus on content rather than styling with this blog project. Many many thanks to the creator(s) for such awesome work!
+# What happened to the Blog?
 
-
-#### Notes:
-
-Serving locally:
-
-`bundle exec jekyll serve`
+I migrated all my posts to [dev.to](https://dev.to/oneearedmusic) via my [Twitter Handle](https://twitter.com/OneEaredMusic).
