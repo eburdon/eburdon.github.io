@@ -1,7 +1,9 @@
 # eburdon.github.io
 
-A temporary github-hosted static page I'll be using for various demos and small projects. Nohing of production value will be stored here.
+A simple github page I'll use for demos and small projects.
 
-# What happened to the Blog?
+Nothing of production value will be stored here.
 
-I migrated all my posts to [dev.to](https://dev.to/oneearedmusic) via my [Twitter Handle](https://twitter.com/OneEaredMusic).
+# Got anything more... exciting to look at?
+
+Visit my personal page at [erikawiedemann.ca](https://erikawiedemann.ca/)
